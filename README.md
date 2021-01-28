@@ -2,9 +2,7 @@
 
 ## Overview
 
-The purpose of this analysis is well defined (4 pt)
-Bag of balanced boosted learners also known as EasyEnsemble.
-SMOTE and Edited Nearest Neighbors (ENN)
+The following is an analysis of balanced accuracy score, precision, and recall of six different algorithms trained to predict credit risk based on LendingClub credit data. Methods tested include oversampling by random oversampling and synthetic minority oversampling technique (SMOTE), undersampling using cluster centroid undersampling, combination over and undersampling using the SMOTE and Edited Nearest Neighbors (SMOTEENN) algorithm, and the Balanced Random Forest and EasyEnsemble algorithms, two machine learning models designed to reduce bias.
 
 ## Results
 
@@ -14,11 +12,15 @@ SMOTE and Edited Nearest Neighbors (ENN)
 * precision
 * recall
 
-### Synthetic minority oversampling technique (SMOTE)
+![](resources/random_oversampling.png)
+
+### SMOTE
 
 * balanced accuracy score
 * precision
 * recall
+
+![](resources/SMOTE.png)
 
 ### Cluster Centroid Undersampling
 
@@ -26,23 +28,31 @@ SMOTE and Edited Nearest Neighbors (ENN)
 * precision
 * recall
 
+![](resources/cluster.png)
+
 ### SMOTEENN
 
 * balanced accuracy score
 * precision
 * recall
 
-### Balanced Random Forest Model
+![](resources/SMOTEENN.png)
+
+### Balanced Random Forest
 
 * balanced accuracy score
 * precision
 * recall
 
-### EasyEnsemble Algorithm
+![](resources/random_forest.png)
+
+### EasyEnsemble
 
 * balanced accuracy score
 * precision
 * recall
+
+![](resources/easy_ensemble.png)
 
 ## Summary
 
