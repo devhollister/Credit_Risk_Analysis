@@ -8,7 +8,7 @@ The following is an analysis of balanced accuracy score, precision, and recall o
 
 ### Random Oversampling
 
-* balanced accuracy score
+* 0.65 balanced accuracy score
 * precision
 * recall
 
@@ -16,41 +16,41 @@ The following is an analysis of balanced accuracy score, precision, and recall o
 
 ### SMOTE
 
-* balanced accuracy score
-* precision
-* recall
+* 0.62 balanced accuracy score
+* 0.01 precision predicting high risk loans
+* 0.61 recall predicting high risk loans
 
 ![](resources/SMOTE.png)
 
 ### Cluster Centroid Undersampling
 
-* balanced accuracy score
-* precision
-* recall
+* 0.51 balanced accuracy score
+* 0.01 precision predicting high risk loans
+* 0.62 recall predicting high risk loans
 
 ![](resources/cluster.png)
 
 ### SMOTEENN
 
-* balanced accuracy score
-* precision
-* recall
+* 0.61 balanced accuracy score
+* 0.01 precision predicting high risk loans
+* 0.69 recall predicting high risk loans
 
 ![](resources/SMOTEENN.png)
 
 ### Balanced Random Forest
 
-* balanced accuracy score
-* precision
-* recall
+* 0.79 balanced accuracy score
+* 0.04 precision predicting high risk loans
+* 0.67 recall predicting high risk loans
 
 ![](resources/random_forest.png)
 
 ### EasyEnsemble
 
-* balanced accuracy score
-* precision
-* recall
+* 0.92 balanced accuracy score
+* 0.07 precision predicting high risk loans
+* 0.91 recall predicting high risk loans
 
 ![](resources/easy_ensemble.png)
 
