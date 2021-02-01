@@ -56,5 +56,4 @@ The following is an analysis of balanced accuracy score, precision, and recall o
 
 ## Summary
 
-Among the models tested, all of the over/undersampling models performed similarly with balanced accuracy scores between 0.51 (cluster centroid undersampling) and 0.65 (random oversampling). All of these models had a precision of 0.01 and recalls between 0.61 (random oversampling and SMOTE) and 0.69 (SMOTEENN), and therefore none of these models would be recommended. The ensemble models 
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+Among the models tested, all of the over/undersampling models performed similarly with balanced accuracy scores between 0.51 (cluster centroid undersampling) and 0.65 (random oversampling). All of these models had a precision of 0.01 and recalls between 0.61 (random oversampling and SMOTE) and 0.69 (SMOTEENN), and therefore none of these models would be recommended. The ensemble models performed better in all metrics, with the EasyEnsemble outperforming the Balanced random forest in all aspects. The EasyEnsemble had the best balanced accuracy score (0.92) and a recall of 0.91, indicating that 91% of true high risk loans would be identified. For this reason, it would recommended to use the EasyEnsemble model. 
